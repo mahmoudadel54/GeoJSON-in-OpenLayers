@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Using GeoJSON data in openLayers</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="description" content="How to add different types of GeoJson data to openlayers" />
+	<meta name="keywords" content="openlayers, geojson" />
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Openlayers -->
+  <link rel="stylesheet" href="https://openlayers.org/en/latest/css/ol.css" />
+  <script type="text/javascript" src="https://openlayers.org/en/latest/build/ol.js"></script>
+</head>
+<body >
+  <!-- Map div -->
+  <div id="map">  
+      <div class="layers-btns">
+
+          <button id="layer1">Layer1 in 4326</button>
+          <button id="layer2">data in 3857</button>
+          <button id="layer3">Layer2 in 4326</button>
+          <button id="layer4">Layer2 from geoserver</button>
+        </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
